@@ -54,7 +54,7 @@ const reduzirBtn = document.querySelector('.btn-ac[title="Reduzir Fonte"]');
             }
             
                      if (comentarios.trim() !== '') {
-                mensagem += '\n\nObrigado por compartilhar suas preferências: ' + comentarios;
+                mensagem += '\n\nObrigada por compartilhar suas preferências: ' + comentarios;
             }
             
             alert(mensagem);
@@ -67,7 +67,7 @@ const reduzirBtn = document.querySelector('.btn-ac[title="Reduzir Fonte"]');
             e.preventDefault();
             
                    const nome = document.getElementById('nome').value;
-            alert(`Obrigado, ${nome}! Sua mensagem foi recebida. Entraremos em contato em breve.`);
+            alert(`Obrigada, ${nome}! Sua mensagem foi recebida. Entraremos em contato em breve.`);
             
                     contactForm.reset();
         });
